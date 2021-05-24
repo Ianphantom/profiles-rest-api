@@ -7,7 +7,7 @@ Proyek ini dibuat dengan menggunakan Django, Django REST Framework, Python, Vagr
 # Cara Deployment pada server
 - Pada server kamu, jalankan
 ```curl
-curl -sL https://raw.githubusercontent.com/2021-IT-Pemrograman-Integratif/project-2-Ianphantom/main/profiles-rest-api/deploy/setup.sh?token=AL7QMHAWTNKUYDAYV2RWO33AVP3LU | sudo bash -
+curl -sL https://raw.githubusercontent.com/Ianphantom/profiles-rest-api/main/deploy/setup.sh | sudo bash -
 ```
 - Pastikan kamu menambahkan ALLOWED_HOST pada profiles_project/settings.py  
 berikut adalah contohnya
